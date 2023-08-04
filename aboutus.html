@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +13,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <style>
-      @media (max-width: 767px) {
+      @media (max-width: 915px) {
         .hidden-mobile {
           display: none;
         }
       }
-      @media (min-width: 767px) {
+      @media (min-width: 916px) {
         .hidden-desktop {
           display: none;
         }
@@ -27,11 +28,12 @@
 
 <body>
 
-    <!-- Title -->
 
+      <!-- Mobile Header-->
+    
     <nav class="navbar navbar-light titlebarmb hidden-desktop">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/mobile logo.png" alt="PHA Logo"></a> 
+        <a class="navbar-brand" href="https://codexnature.github.io/Product-Hub-Africa/"><img src="images/mobile logo.png" alt="PHA Logo"></a> 
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,7 +43,7 @@
               <a class="nav-link activen text-white" aria-current="page" href="https://codexnature.github.io/Product-Hub-Africa/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="https://codexnature.github.io/Product-Hub-Africa/about%20us">About Us</a>
+              <a class="nav-link active text-white" aria-current="page" href="https://codexnature.github.io/Product-Hub-Africa/aboutus">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-white" aria-current="page" href="https://codexnature.github.io/Product-Hub-Africa/blog%20page">Blog</a>
@@ -53,7 +55,7 @@
             <li class="nav-item dropdown">
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a href="https://codexnature.github.io/Product-Hub-Africa/" class="nav-link px-5 text-white">Home</a></li>
-                <li><a href="https://codexnature.github.io/Product-Hub-Africa/about%20us" class="nav-link px-5 text-white">About Us</a></li>
+                <li><a href="https://codexnature.github.io/Product-Hub-Africa/aboutus" class="nav-link px-5 text-white">About Us</a></li>
                 <li><a href="https://codexnature.github.io/Product-Hub-Africa/blog%20page" class="nav-link px-5 text-white">Blog</a></li>
                 <li><a href="https://codexnature.github.io/Product-Hub-Africa/contact%20us" class="nav-link px-5 text-white">Contact Us</a></li>
               </ul>
@@ -63,23 +65,28 @@
       </div>
     </nav>
 
+    <!-- Header -->
 
     <div class="hidden-mobile titlebar">
-      <img src="images/Logo.png" alt="PHA Logo">
-      <ul class="nav">
-        <li><a href="https://codexnature.github.io/Product-Hub-Africa/" class="nav-link px-5 text-white">Home</a></li>
-        <li><a href="https://codexnature.github.io/Product-Hub-Africa/about%20us" class="nav-link px-5 text-white">About Us</a></li>
-        <li><a href="https://codexnature.github.io/Product-Hub-Africa/blog%20page" class="nav-link px-5 text-white">Blog</a></li>
-        <li><a href="https://codexnature.github.io/Product-Hub-Africa/contact%20us" class="nav-link px-5 text-white">Contact Us</a></li>
+      <a href="https://codexnature.github.io/Product-Hub-Africa/"> <img src="images/Logo.png" alt="PHA Logo"></a>
+      <ul class="navi">
+        <li><a href="https://codexnature.github.io/Product-Hub-Africa/">Home</a></li>
+        <li><a href="https://codexnature.github.io/Product-Hub-Africa/aboutus">About Us</a></li>
+        <li><a href="https://codexnature.github.io/Product-Hub-Africa/blog%20page">Blog</a></li>
+        <li><a href="https://codexnature.github.io/Product-Hub-Africa/contact%20us">Contact Us</a></li>
       </ul>
 
-      <div class="titlebarbuttons">
-        <button type="button" href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\donations.html" class="mx-5 btn btn-outline-light" >Donate</button>
-        <button class="btn btn-light text-dark" >Join Us</button>
+      <div class="headerbtns">
+        <button type="button" href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\donations.html" class="donatebtn" >Donate</button>
+        <button class="joinbtn" >Join Us</button>
       </div>
 
     </div>
 
+
+
+
+    
     <!-- Mobile About Us -->
     <div class="hidden-desktop maboutus">
       <h1>Empowering Tech Innovators to Shape the Future.</h1>
@@ -88,16 +95,21 @@
     </div>
     
       <!-- About Us -->
-      <div class="hidden-mobile row container10">
-        <div class="container10a col-lg-7">
+      <div class="hidden-mobile container10">
+        <div class="container10a">
             <h1>Empowering Tech Innovators to Shape the Future.</h1>
             <p class="p1">Product Hub Africa is a vibrant community of tech enthusiasts, united by our passion for creating scalable, user-centered products that drive positive change.</p>
             <p class="p2">We are a community of talented product developers, designers, managers, and enthusiasts from diverse backgrounds. Together, we form a dynamic network where ideas collide, collaborations thrive, and innovation flourishes. We foster an environment that encourages continuous learning, collaboration, and growth.</p>
         </div>
-        <div class="container10b col-lg-5">   
+        
+        <div class="container10b">   
             <img src="images/About us polygons.png" alt="Techies">
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="408" height="355" viewBox="0 0 408 355" fill="none">
+          <path d="M204.677 174.514L203.977 175.229L204.677 174.514ZM2.02862 346.583C1.85213 347.106 2.1333 347.674 2.65661 347.85L11.1847 350.726C11.7081 350.903 12.2754 350.622 12.4519 350.098C12.6284 349.575 12.3472 349.008 11.8238 348.831L4.24331 346.275L6.79978 338.694C6.97623 338.171 6.69506 337.604 6.17175 337.427C5.64843 337.251 5.08111 337.532 4.90462 338.055L2.02862 346.583ZM406.378 2.1261C405.934 1.2301 405.934 1.23012 405.934 1.23013C405.934 1.23014 405.934 1.23016 405.934 1.23018C405.933 1.23023 405.933 1.23029 405.933 1.23037C405.933 1.23053 405.932 1.23077 405.932 1.23109C405.93 1.23172 405.929 1.23265 405.926 1.23388C405.921 1.23634 405.914 1.24 405.904 1.24485C405.884 1.25456 405.855 1.26904 405.817 1.28826C405.739 1.32668 405.624 1.38401 405.472 1.45987C405.169 1.61158 404.717 1.83739 404.128 2.13419C402.948 2.72779 401.214 3.60537 398.993 4.74209L399.904 6.52248C402.121 5.38793 403.851 4.51241 405.027 3.92073C405.615 3.6249 406.064 3.40002 406.366 3.24921C406.517 3.17381 406.631 3.11692 406.707 3.07894C406.746 3.05995 406.774 3.04568 406.793 3.03619C406.803 3.03144 406.81 3.02789 406.815 3.02554C406.817 3.02436 406.819 3.02349 406.82 3.02291C406.821 3.02262 406.821 3.02241 406.822 3.02228C406.822 3.02221 406.822 3.02216 406.822 3.02213C406.822 3.02211 406.822 3.0221 406.822 3.02209C406.822 3.02209 406.822 3.02209 406.378 2.1261ZM385.034 12.0018C380.878 14.1949 376.216 16.6822 371.152 19.4252L372.104 21.1838C377.161 18.4445 381.818 15.9606 385.967 13.7706L385.034 12.0018ZM357.297 27.027C352.902 29.4694 348.321 32.0455 343.603 34.7374L344.594 36.4746C349.305 33.7866 353.88 31.2142 358.269 28.7751L357.297 27.027ZM329.934 42.6435C325.489 45.2513 320.969 47.9396 316.411 50.6953L317.446 52.4068C321.996 49.656 326.508 46.9722 330.946 44.3685L329.934 42.6435ZM302.995 58.9415C298.556 61.7163 294.114 64.5421 289.702 67.4073L290.791 69.0847C295.193 66.2263 299.625 63.4066 304.055 60.6374L302.995 58.9415ZM276.575 76.1142C272.185 79.0926 267.857 82.0995 263.627 85.1229L264.789 86.7501C269.006 83.737 273.32 80.7394 277.698 77.7694L276.575 76.1142ZM250.92 94.4873C246.641 97.7472 242.512 101.012 238.575 104.267L239.849 105.808C243.764 102.572 247.872 99.3241 252.132 96.0782L250.92 94.4873ZM226.647 114.661C222.582 118.418 218.837 122.143 215.481 125.809L216.956 127.16C220.268 123.541 223.973 119.856 228.004 116.13L226.647 114.661ZM205.524 138.222C202.193 143.139 199.759 147.921 198.439 152.496L200.361 153.05C201.605 148.737 203.926 144.148 207.18 139.344L205.524 138.222ZM199.161 168.549C200.26 170.92 201.858 173.151 203.977 175.229L205.377 173.8C203.412 171.874 201.963 169.838 200.976 167.708L199.161 168.549ZM203.977 175.229C205.942 177.154 207.391 179.19 208.378 181.321L210.193 180.48C209.094 178.108 207.496 175.877 205.377 173.8L203.977 175.229ZM208.993 195.979C207.749 200.291 205.428 204.881 202.174 209.685L203.83 210.807C207.161 205.889 209.595 201.108 210.915 196.533L208.993 195.979ZM192.398 221.869C189.086 225.488 185.381 229.172 181.35 232.899L182.707 234.368C186.772 230.61 190.517 226.886 193.873 223.22L192.398 221.869ZM169.505 243.221C165.59 246.456 161.482 249.705 157.222 252.951L158.434 254.541C162.713 251.282 166.842 248.017 170.779 244.762L169.505 243.221ZM144.565 262.279C140.348 265.292 136.034 268.289 131.656 271.259L132.779 272.915C137.169 269.936 141.497 266.929 145.727 263.906L144.565 262.279ZM118.563 279.944C114.161 282.803 109.729 285.622 105.299 288.391L106.359 290.087C110.798 287.312 115.24 284.487 119.652 281.621L118.563 279.944ZM91.9079 296.622C87.3581 299.373 82.8461 302.057 78.4077 304.66L79.4197 306.385C83.8652 303.777 88.3848 301.089 92.9427 298.333L91.9079 296.622ZM64.7603 312.554C60.0486 315.242 55.4739 317.815 51.0852 320.254L52.0567 322.002C56.4515 319.559 61.0327 316.983 65.7513 314.291L64.7603 312.554ZM37.2495 327.845C32.1925 330.584 27.5364 333.068 23.3864 335.258L24.3199 337.027C28.4757 334.834 33.1383 332.347 38.2021 329.604L37.2495 327.845ZM9.45019 342.506C7.23336 343.641 5.503 344.516 4.32725 345.108C3.73938 345.404 3.29015 345.629 2.98812 345.78C2.83713 345.855 2.72287 345.912 2.64653 345.95C2.60834 345.969 2.57965 345.983 2.56054 345.993C2.55096 345.997 2.5438 346.001 2.53906 346.003C2.53669 346.004 2.53494 346.005 2.53376 346.006C2.53319 346.006 2.53275 346.006 2.53251 346.006C2.53235 346.007 2.53224 346.007 2.53218 346.007C2.53217 346.007 2.53212 346.007 2.53212 346.007C2.53212 346.007 2.53212 346.007 2.97618 346.903C3.42025 347.799 3.42025 347.799 3.4203 347.799C3.42031 347.799 3.42036 347.799 3.42041 347.799C3.42048 347.799 3.42064 347.798 3.42081 347.798C3.42114 347.798 3.4216 347.798 3.42222 347.798C3.42351 347.797 3.42538 347.796 3.42786 347.795C3.43282 347.792 3.4402 347.789 3.44996 347.784C3.46952 347.774 3.49866 347.76 3.5373 347.741C3.61454 347.702 3.72965 347.645 3.88159 347.569C4.18542 347.417 4.63651 347.191 5.22629 346.895C6.40586 346.301 8.14025 345.423 10.3614 344.287L9.45019 342.506ZM204.677 174.514L203.277 175.943L204.677 174.514ZM1.08106 346.264C0.728077 347.31 1.29042 348.445 2.33709 348.798L19.3933 354.55C20.4399 354.903 21.5746 354.34 21.9275 353.294C22.2805 352.247 21.7182 351.113 20.6715 350.76L5.51044 345.647L10.6233 330.486C10.9763 329.439 10.414 328.304 9.36731 327.951C8.32068 327.598 7.18604 328.161 6.8331 329.207L1.08106 346.264ZM406.378 2.1261C405.49 0.334113 405.49 0.334128 405.49 0.334147C405.49 0.33416 405.49 0.334185 405.489 0.33421C405.489 0.334262 405.489 0.334329 405.489 0.33442C405.489 0.334596 405.488 0.33485 405.488 0.335176C405.486 0.335834 405.484 0.33679 405.482 0.338047C405.477 0.340561 405.469 0.344274 405.459 0.349183C405.44 0.358999 405.41 0.373591 405.371 0.392913C405.294 0.431557 405.178 0.489113 405.026 0.565199C404.721 0.717366 404.269 0.943643 403.678 1.24092C402.497 1.83548 400.76 2.71408 398.537 3.8519L400.359 7.41267C402.574 6.27921 404.302 5.40472 405.476 4.814C406.063 4.51865 406.511 4.29424 406.813 4.14388C406.963 4.06871 407.077 4.01204 407.153 3.97428C407.191 3.9554 407.219 3.94124 407.238 3.93186C407.248 3.92717 407.255 3.92367 407.259 3.92137C407.262 3.92022 407.263 3.91937 407.264 3.91882C407.265 3.91855 407.265 3.91835 407.266 3.91823C407.266 3.91817 407.266 3.91812 407.266 3.9181C407.266 3.91809 407.266 3.91808 407.266 3.91808C407.266 3.91808 407.266 3.91808 406.378 2.1261ZM384.567 11.1174C380.409 13.3121 375.743 15.8011 370.676 18.5459L372.581 22.0631C377.634 19.3256 382.287 16.8435 386.434 14.655L384.567 11.1174ZM356.811 26.1529C352.414 28.597 347.829 31.1749 343.107 33.8688L345.089 37.3432C349.797 34.6572 354.369 32.0866 358.755 29.6492L356.811 26.1529ZM329.428 41.7809C324.979 44.3908 320.456 47.0814 315.894 49.8395L317.964 53.2625C322.509 50.5142 327.017 47.8327 331.452 45.2311L329.428 41.7809ZM302.464 58.0936C298.022 60.8712 293.575 63.7001 289.157 66.5686L291.335 69.9234C295.733 67.0683 300.16 64.2517 304.585 61.4853L302.464 58.0936ZM276.014 75.2867C271.617 78.2691 267.283 81.2808 263.045 84.3093L265.371 87.5637C269.58 84.5558 273.887 81.5628 278.259 78.5969L276.014 75.2867ZM250.314 93.6918C246.026 96.9588 241.886 100.232 237.938 103.496L240.487 106.579C244.389 103.353 248.487 100.112 252.738 96.8737L250.314 93.6918ZM225.968 113.927C221.886 117.699 218.122 121.443 214.743 125.134L217.693 127.835C220.984 124.24 224.668 120.575 228.683 116.864L225.968 113.927ZM204.696 137.661C201.327 142.635 198.836 147.513 197.479 152.219L201.322 153.327C202.528 149.145 204.792 144.652 208.008 139.904L204.696 137.661ZM198.254 168.97C199.409 171.461 201.08 173.79 203.277 175.943L206.077 173.086C204.189 171.236 202.815 169.297 201.883 167.287L198.254 168.97ZM203.277 175.943C205.165 177.793 206.539 179.731 207.471 181.741L211.1 180.059C209.945 177.567 208.274 175.239 206.077 173.086L203.277 175.943ZM208.032 195.702C206.826 199.883 204.562 204.377 201.346 209.124L204.658 211.368C208.027 206.394 210.518 201.516 211.875 196.81L208.032 195.702ZM191.661 221.194C188.37 224.789 184.686 228.453 180.671 232.165L183.386 235.102C187.468 231.329 191.232 227.585 194.611 223.895L191.661 221.194ZM168.867 242.45C164.965 245.676 160.867 248.916 156.616 252.155L159.04 255.337C163.328 252.07 167.468 248.797 171.416 245.533L168.867 242.45ZM143.983 261.465C139.774 264.473 135.467 267.466 131.095 270.432L133.34 273.742C137.737 270.76 142.071 267.748 146.309 264.719L143.983 261.465ZM118.019 279.105C113.621 281.96 109.194 284.777 104.769 287.544L106.89 290.935C111.332 288.158 115.779 285.329 120.197 282.46L118.019 279.105ZM91.3905 295.766C86.8448 298.515 82.3366 301.196 77.9017 303.798L79.9257 307.248C84.3747 304.638 88.8981 301.947 93.4601 299.189L91.3905 295.766ZM64.2648 311.686C59.5565 314.372 54.9851 316.942 50.5994 319.38L52.5425 322.876C56.9403 320.432 61.5248 317.854 66.2468 315.16L64.2648 311.686ZM36.7732 326.966C31.7197 329.703 27.0667 332.185 22.9197 334.374L24.7866 337.911C28.9454 335.717 33.6112 333.228 38.6784 330.483L36.7732 326.966ZM8.99462 341.616C6.77991 342.75 5.05157 343.624 3.87773 344.215C3.29081 344.51 2.84253 344.735 2.54141 344.885C2.39082 344.96 2.27706 345.017 2.20117 345.055C2.1632 345.073 2.13469 345.088 2.1158 345.097C2.10638 345.102 2.09933 345.105 2.09466 345.107C2.09235 345.109 2.09065 345.109 2.08953 345.11C2.08897 345.11 2.08857 345.11 2.08834 345.111C2.08823 345.111 2.08812 345.111 2.08806 345.111C2.08806 345.111 2.08806 345.111 2.08806 345.111C2.08806 345.111 2.08806 345.111 2.97618 346.903C3.86431 348.695 3.86436 348.695 3.86441 348.695C3.86442 348.695 3.86447 348.695 3.86453 348.695C3.86464 348.695 3.86476 348.694 3.86493 348.694C3.86532 348.694 3.86583 348.694 3.86645 348.694C3.8678 348.693 3.86972 348.692 3.87226 348.691C3.87733 348.688 3.88483 348.685 3.8947 348.68C3.91448 348.67 3.94384 348.655 3.98266 348.636C4.06035 348.597 4.17591 348.54 4.3283 348.464C4.63303 348.311 5.08507 348.085 5.67581 347.788C6.85728 347.193 8.5937 346.315 10.8169 345.177L8.99462 341.616Z" fill="#DAA728"/>
+        </svg>
       </div>
+
 
 
       <!-- Mobile M nd V -->
@@ -110,11 +122,11 @@
 
 
       <!-- Mission and Vision -->
-      <div class="hidden-mobile row container11">
-        <div class="container11a col-lg-6">
-          <div><img src="images/Frame 158.png" alt="Light Tunnel"></div>
+      <div class="hidden-mobile container11">
+        <div class="container11a">
+          <img src="images/Frame 158.png" alt="Light Tunnel">
         </div>
-        <div class="container11b col-lg-6">
+        <div class="container11b">
           <h3>Our Mission and Vision</h3>
           <p>Our mission is to foster a thriving community of tech enthusiasts who are passionate about creating scalable, user-centered products that drive positive change not only in Africa but also beyond.</p> 
             <br>
@@ -381,8 +393,8 @@
       <div class="hidden-mobile container12">
         <h2>Our Amazing Team</h2>
         <p>Product Hub Africa is fueled by a passionate team of dedicated individuals who are comitted to empowring and connecting the tech community.</p>
-        <div class="row align-text-center container12a">
-          <div class="cards col-lg-4">
+        <div class="container12a">
+          <div class="cards">
             <img class="cardimg" src="images/Victoria Oladosu.png" alt="Victoria Oladosu">
             <h4>Victoria Oladosu</h4>
             <p>Product Manager at PHA
@@ -422,7 +434,7 @@
             </svg>
 
           </div>
-          <div class="cards col-lg-4">
+          <div class="cards">
             <img class="cardimg" src="images/Dosunmu Aishat.png" alt="Dosunmu Aishat">
             <h4>Dosunmu Aishat</h4>
             <p>Comunity Cord. at PHA
@@ -463,7 +475,7 @@
 
 
           </div>
-          <div class="cards col-lg-4">
+          <div class="cards">
             <img class="cardimg" src="images/Osaite Emmanuel.png" alt="Osaite Emmanuel">
             <h4>Osaite Emmanuel</h4>
             <p>Lead Designer at PHA
@@ -506,10 +518,12 @@
           </div>
 
         </div>
-        <div class="row container12b">
-          <div class="cards col-lg-4">
+
+
+        <div class="container12b">
+          <div class="cards">
             <img class="cardimg" src="images/Omogoye Precious Deborah.png" alt="Omogoye Precious Deborah">
-            <h4>Omogoye Precious Deborah</h4>
+            <h4>Omogoye Precious</h4>
             <p>Content Specialist at PHA
               <br>
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -548,7 +562,7 @@
 
 
           </div>
-          <div class="cards col-lg-4">
+          <div class="cards">
             <img class="cardimg" src="images/Coker White.png" alt="Coker White">
             <h4>Coker White</h4>
             <p>Resource Manager at PHA
@@ -589,7 +603,7 @@
 
 
           </div>
-          <div class="cards col-lg-4">
+          <div class="cards">
             <img class="cardimg" src="images/victoria O.png" alt="Team Mamber">
             <h4>Victoria Oladosu</h4>
             <p>Product Manager at PHA
@@ -636,6 +650,7 @@
       </div>
 
 
+
       <!-- Mobile Volunteer -->
 
       <div class="hidden-desktop mvolunteer">
@@ -661,7 +676,7 @@
 
 
       <!-- Volunteer -->
-      <div class="hidden-mobile row container13">
+      <div class="hidden-mobile container13">
         <div class="container13a">
           <h3>Volunteer with us</h3>
           <br>
@@ -689,9 +704,7 @@
 
 
 
-
-
-
+    
         <!-- Mobile Footer -->
 
         <div class="hidden-desktop mfooter">
@@ -756,7 +769,7 @@
               <br>
               <a href="https://codexnature.github.io/Product-Hub-Africa/blog%20page">Blog Post</a>
               <br>
-              <a href="https://codexnature.github.io/Product-Hub-Africa/about%20us">About Us</a>
+              <a href="https://codexnature.github.io/Product-Hub-Africa/aboutus">About Us</a>
               <br>
               <a href="https://codexnature.github.io/Product-Hub-Africa/contact%20us">Contact Us</a>
             </div>
@@ -781,7 +794,7 @@
               <br>
               <p> <a href="https://codexnature.github.io/Product-Hub-Africa/blog%20page">Blog Post</a></p>
               <br>
-              <p> <a href="https://codexnature.github.io/Product-Hub-Africa/about%20us">About Us</a></p>
+              <p> <a href="https://codexnature.github.io/Product-Hub-Africa/aboutus">About Us</a></p>
               <br>
               <p> <a href="https://codexnature.github.io/Product-Hub-Africa/contact%20us">Contact Us</a></p>
             </div>
@@ -812,8 +825,8 @@
       <!-- Footer -->
 
       <div class="hidden-mobile footer">
-        <div class="Column2">
-          <div class="footer-container1a"><img src="images/Logo.png" alt="PHA Logo"></div> 
+          <div class="one"><img src="images/Logo.png" alt="PHA Logo"> 
+            <div class="logosvg">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
             <g clip-path="url(#clip0_234_3210)">
               <path d="M12 0.0107422C5.37225 0.0107422 0 5.38299 0 12.0107C0 18.6377 5.37225 24.0107 12 24.0107C18.6278 24.0107 24 18.6377 24 12.0107C24 5.38299 18.6278 0.0107422 12 0.0107422Z" fill="#E7EEF4"/>
@@ -860,41 +873,37 @@
               </clipPath>
             </defs>
           </svg>
-          <p style="font-size: 14px; color: #fff;">Copyright (c) 2023. Product Hub Africa.</p>
         </div>
-        <div class="linkbox">
-          <div class="navigation">
-            <h6>Navigation</h6>
-            <br>
-            <P><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\index.html">Home</a></P>
-            <br>
-            <P><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\blog page.html">Blog Post</a></P>
-            <br>
-            <P><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\about us.html">About Us</a></P>
-            <br>
-            <P><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\contact us.html">Contact Us</a></P>
-          </div>
-          <div class="pha">
-            <h6>Product Hub Africa</h6>
-            <br>
-            <p>Community</p>
-            <br>
-            <p>Partnership</p>
-            <br>
-            <p><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\donations.html">Donations</a></p>
-            <br>
-            <p>Volunteer</p>
-          </div>
-          <div class="legal">
-            <p>Legal</p>
-            <br>
-            <p><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\faq.html">FAQ</a></p>
-            <br>
-            <p><a href="C:\Users\USER\Desktop\ProBono Projects\Product Hub Africa\privacy policy.html">Privacy Policy</a></p>
-          </div>
+          <p>Copyright (c) 2023. Product Hub Africa.</p>
+        </div>
+        <div class="two">
+          <p>Subscribe to our newsletter</p>
+          <form>
+            <input type="email" placeholder="mail@mail.com">
+              <button>Subscribe</button>
+          </form>
+        </div>
+        
+        <div class="three">
+          <p>Legal</p>
+          <br>
+          <p><a href="https://codexnature.github.io/Product-Hub-Africa/faq">FAQ</a></p>
+          <br>
+          <p><a href="https://codexnature.github.io/Product-Hub-Africa/privacy%20policy">Privacy Policy</a></p>
         </div>
 
-        <!-- <div class="linkbox">
+        <div class="four">
+          <h6>Product Hub Africa</h6>
+          <br>
+          <p>Community</p>
+          <br>
+          <p>Partnership</p>
+          <br>
+          <p><a href="https://codexnature.github.io/Product-Hub-Africa/donations">Donations</a></p>
+          <br>
+          <p>Volunteer</p>
+        </div>
+        
           <div class="navigation">
             <h6>Navigation</h6>
             <br>
@@ -902,43 +911,23 @@
             <br>
             <P><a href="https://codexnature.github.io/Product-Hub-Africa/blog%20page">Blog Post</a></P>
             <br>
-            <P><a href="https://codexnature.github.io/Product-Hub-Africa/about%20us">About Us</a></P>
+            <P><a href="https://codexnature.github.io/Product-Hub-Africa/aboutus">About Us</a></P>
             <br>
             <P><a href="https://codexnature.github.io/Product-Hub-Africa/contact%20us">Contact Us</a></P>
           </div>
-          <div class="pha">
-            <h6>Product Hub Africa</h6>
-            <br>
-            <p>Community</p>
-            <br>
-            <p>Partnership</p>
-            <br>
-            <p><a href="https://codexnature.github.io/Product-Hub-Africa/donations">Donations</a></p>
-            <br>
-            <p>Volunteer</p>
-          </div>
-          <div class="legal">
-            <p>Legal</p>
-            <br>
-            <p><a href="https://codexnature.github.io/Product-Hub-Africa/faq">FAQ</a></p>
-            <br>
-            <p><a href="https://codexnature.github.io/Product-Hub-Africa/privacy%20policy">Privacy Policy</a></p>
-          </div>
-        </div> -->
+          
+
+          
+        
 
 
-        <div class="subbox">
-          <p>Subscribe to our newsletter</p>
-          <input type="email" placeholder="mail@mail.com">
-          <button>Subscribe</button>
-          </input>
-        </div>
+        
       </div>
 
 
-
-
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>
