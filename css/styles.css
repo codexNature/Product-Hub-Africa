@@ -95,7 +95,6 @@ body {
             justify-content: center;
             align-items: center;
             text-align: center;
-            background-color: aqua;
             height: 40%;
         }
 
@@ -1981,7 +1980,6 @@ line-height: 1.5rem; /* 150% */
     height: 100%;
     flex-shrink: 0;
     /* background: var(--guide, #FFF); */
-    /* background-color: aqua; */
     border-color: transparent;
     flex-grow:2;
     border-radius: 0.5rem;
@@ -2696,7 +2694,6 @@ line-height: 1.5rem; /* 150% */
     height: 100%;
     flex-shrink: 0;
     /* background: var(--guide, #FFF); */
-    /* background-color: aqua; */
     border-color: transparent;
     flex-grow:2;
     border-radius: 0.5rem;
